@@ -8,6 +8,11 @@ $A$ - величина, $[a, b]$ - связанный с ней отрезок
 
 ### 1. Метод интегральных сумм
 
+_рис 1_
+
+![pic 1](./pictures/pic1.jpg)
+
+
 Рассмотрим $[a,b], a= x_0, x_1, ..., x_i, ..., x_{n-1}, x_n = b$
 
 Рассмотрим $[x_{i-1}, x_i] \implies$ Рассмотрим $A_i = f(\psi_i) \bigtriangleup x_i, \psi_i \in [x_{i-1}, x_i]$
@@ -23,12 +28,10 @@ $$A = \lim_{n \rightarrow \infty, \bigtriangleup x_i \rightarrow 0} {\sum_{i = 1
 $$A = \int_a^b f(x)dx $$
 
 ## Примеры 
-1. __Вычисление площади плоской фигуры в декартовых прямоугольных координатах__
-    1. __1.1__
-    
-        $$y = f(x), x > a, x < b$$
+1. ### Вычисление площади плоской фигуры в декартовых прямоугольных координатах
 
-       _рис 1_ ()
+    1. __1.1__
+        $$y = f(x), x > a, x < b$$
 
         $$f(x) \geq 0, x \in [a, b] $$
 
@@ -42,9 +45,13 @@ $$A = \int_a^b f(x)dx $$
         $$\large \bold{\bigtriangleup S \approx dS, \bigtriangleup x \rightarrow 0}$$
         ---
 
-        _рис 2_ ()
+
+        _рис 2_
+
+        ![pic 2](./pictures/pic2.jpg)
+
+
         $$S_f  = \int_a^b [f_2(x) - f_1(x)]dx$$
-        _рис 3_ ()
     2. __1.2 Параметрические функции__
         $$\begin{cases}
             x = x(t), t \in [\alpha, \beta] \\
@@ -52,15 +59,22 @@ $$A = \int_a^b f(x)dx $$
         \end{cases} $$
 
         $$S_{тр} = \int_{\alpha}^{\beta} y(t) * x'(t) dt$$
-    3. __1.3__
+    3. __1.3 Функция в полярных координатах__
    
-        _рис 4_ ()
-        $$dS = \frac{1}{2} r^2(u) du $$
-        $$S = \frac{1}{2} \int_{\alpha}^{\beta} r^2(u) du $$
-2. __Вычисление длин дуг (кривых)__
+        _рис 3_
+
+        ![pic 3](./pictures/pic3.jpg)
+
+        $$dS = \frac{1}{2} r^2(\varphi) d\varphi $$
+        $$S = \frac{1}{2} \int_{\alpha}^{\beta} r^2(\varphi) d\varphi $$
+
+2. ### Вычисление длин дуг (кривых)
     1. __2.1__
 
-        _рис 5_ ()
+        _рис 4_
+
+        ![pic 4](./pictures/pic4.jpg)
+
         $$a=x_0, b = x_n $$
         $$\delta = max \bigtriangleup x_i \rightarrow 0 $$
         $$l = \lim_{n \rightarrow \infty} L_n $$
@@ -71,7 +85,7 @@ $$A = \int_a^b f(x)dx $$
         $$l \stackrel{def}{=} \lim_{n \rightarrow \infty} L_n = \lim_{n \rightarrow \infty, \delta \rightarrow 0}  \sum_{i = 1}^n \sqrt{1 + (f')^2(\psi_i)}\bigtriangleup x_i  $$
 
         ---
-
+        
         $$l = \int_a^b \sqrt{1 + (y')^2}dx $$
 
         ---
@@ -85,9 +99,7 @@ $$A = \int_a^b f(x)dx $$
         $$dl = \sqrt{(dx)^2 + (dy)^2} $$
         $$y' = \cfrac{dy}{dx} $$
 
-        _рис 6_ ()
-
-    2. __2.2__ Параметрическая функция
+    2. __2.2 Параметрическая функция__
         $$\begin{cases}
             x = x(t), t \in [\alpha, \beta] \\
             y = y(t)
@@ -112,10 +124,12 @@ $$A = \int_a^b f(x)dx $$
          $$\large \bold l = \int_{\alpha}^{\beta} \sqrt{r'(\phi)^2 + r^2{\phi}} d\phi$$
 
         ---
-3. __Вычисление объемов тел по  известным площадям поперечных сечений__
+3. ### Вычисление объемов тел по  известным площадям поперечных сечений
    1. __3.1__
 
-        _рис 7_ ()
+        _рис 7_
+
+        ![pic 5](./pictures/pic5.jpg)
 
         Обозначим площадь сечения $S(x)$
 
@@ -126,7 +140,9 @@ $$A = \int_a^b f(x)dx $$
         $$V = \int_a^b S(x)dx $$
     1. __3.2__ __Вычисление объма тела вращения__
 
-        _рис 8_ ()
+        _рис 6_
+
+        ![pic 6](pictures/pic6.jpg)
 
         $$] y = f(x) $$
         
@@ -135,9 +151,12 @@ $$A = \int_a^b f(x)dx $$
         $$V_x = \pi \int_a^b y^2dx $$
         $V_x$ - Тело вращаем относительно оси $O_x$
         $$V_y = \pi \int_a^b x^2(y)dy $$
-4. __Площадь поверхности тел__
 
-    _рис 9_ ()
+4. ### Площадь поверхности тел
+
+    _рис 7_
+
+    ![pic 7](pictures/pic7.jpg)
 
     Рассмотрим $S(x), \bigtriangleup S(x)$
 
@@ -147,7 +166,7 @@ $$A = \int_a^b f(x)dx $$
 
     $$S_{пов} = 2\pi \int_a^b y(x)\sqrt{1 + y'(x)^2}dx $$
 
-#### Пример для шара
+### Пример для шара
 
 $$V = 2\pi \int_0^r (r^2 -x^2)dx = 2\pi(xr^2 - \cfrac{x^3}{3}) $$
     
