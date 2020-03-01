@@ -7,4 +7,4 @@
 
         pandoc Lecture1.md --pdf-engine=xelatex --variable mainfont="..." --variable mathfont="..." -o Lecture1.pdf
     
-Вместо многоточия `...` пишем шрифты, они должны быть установлены на компьютере. Я использовал `mainfont="Times New Roman` и `mathfont="Latina Modern Math`
+Вместо многоточия `...` пишем шрифты, они должны быть установлены на компьютере. Я использовал `mainfont="Times New Roman` и `mathfont="Latin Modern Math`

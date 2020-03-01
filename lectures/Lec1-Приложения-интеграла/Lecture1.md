@@ -10,7 +10,7 @@ $A$ - величина, $[a, b]$ - связанный с ней отрезок
 
 _рис 1_
 
-![pic 1](./pictures/pic1.jpg)
+![рис 1](./pictures/pic1.jpg){ width=75% }
 
 
 Рассмотрим $[a,b], a= x_0, x_1, ..., x_i, ..., x_{n-1}, x_n = b$
@@ -48,7 +48,7 @@ $$A = \int_a^b f(x)dx $$
 
         _рис 2_
 
-        ![pic 2](./pictures/pic2.jpg)
+        ![рис 2](./pictures/pic2.jpg){ width=60% }
 
 
         $$S_f  = \int_a^b [f_2(x) - f_1(x)]dx$$
@@ -60,12 +60,13 @@ $$A = \int_a^b f(x)dx $$
 
         $$S_{тр} = \int_{\alpha}^{\beta} y(t) * x'(t) dt$$
     3. __1.3 Функция в полярных координатах__
-   
+
         _рис 3_
 
-        ![pic 3](./pictures/pic3.jpg)
+        ![рис 3](./pictures/pic3.jpg){ width=60% }
 
         $$dS = \frac{1}{2} r^2(\varphi) d\varphi $$
+
         $$S = \frac{1}{2} \int_{\alpha}^{\beta} r^2(\varphi) d\varphi $$
 
 2. ### Вычисление длин дуг (кривых)
@@ -73,7 +74,7 @@ $$A = \int_a^b f(x)dx $$
 
         _рис 4_
 
-        ![pic 4](./pictures/pic4.jpg)
+        ![рис 4](./pictures/pic4.jpg){ width=75% }
 
         $$a=x_0, b = x_n $$
         $$\delta = max \bigtriangleup x_i \rightarrow 0 $$
@@ -127,9 +128,9 @@ $$A = \int_a^b f(x)dx $$
 3. ### Вычисление объемов тел по  известным площадям поперечных сечений
    1. __3.1__
 
-        _рис 7_
+        _рис 5_
 
-        ![pic 5](./pictures/pic5.jpg)
+        ![рис 5](./pictures/pic5.jpg){ width=60% }
 
         Обозначим площадь сечения $S(x)$
 
@@ -142,7 +143,7 @@ $$A = \int_a^b f(x)dx $$
 
         _рис 6_
 
-        ![pic 6](pictures/pic6.jpg)
+        ![рис 6](pictures/pic6.jpg){ width=50% }
 
         $$] y = f(x) $$
         
@@ -156,7 +157,7 @@ $$A = \int_a^b f(x)dx $$
 
     _рис 7_
 
-    ![pic 7](pictures/pic7.jpg)
+    ![рис 7](pictures/pic7.jpg){ width=60% }
 
     Рассмотрим $S(x), \bigtriangleup S(x)$
 
