@@ -63,12 +63,12 @@ $$A = \int_a^b f(x)dx $$
         _рис 5_ ()
         $$a=x_0, b = x_n $$
         $$\delta = max \bigtriangleup x_i \rightarrow 0 $$
-        $$l = \lim_{n -> \infty} L_n $$
-        $$L_i, \bigtriangleup L_i = \sqrt{(\bigtriangleup x_i)^2 + (\bigtriangleup y_i) ^2} = \sqrt{(\bigtriangleup x_i)^2 + (f(x_i) - f(x_i - 1))^2} =$$
+        $$l = \lim_{n \rightarrow \infty} L_n $$
+        $$L_i, \bigtriangleup L_i = \sqrt{(\bigtriangleup x_i)^2 + (\bigtriangleup y_i) ^2} = \sqrt{(\bigtriangleup x_i)^2 + (f(x_i) - f(x_{i-1}))^2} =$$
 
         $$\sqrt{(\bigtriangleup x_i)^2 + [f'(\psi_i)]^2(\bigtriangleup x_i)^2}$$
         $$L_n = \sum_{i = 1}^n \sqrt{1 + (f')^2(\psi_i)}\bigtriangleup x_i $$
-        $$l \stackrel{def}{=} \lim_{n -> \infty} L_n = \lim_{n -> \infty, \delta -> 0}  \sum_{i = 1}^n \sqrt{1 + (f')^2(\psi_i)}\bigtriangleup x_i  $$
+        $$l \stackrel{def}{=} \lim_{n \rightarrow \infty} L_n = \lim_{n \rightarrow \infty, \delta \rightarrow 0}  \sum_{i = 1}^n \sqrt{1 + (f')^2(\psi_i)}\bigtriangleup x_i  $$
 
         ---
 
